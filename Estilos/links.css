@@ -1,0 +1,25 @@
+a{
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+/* Formatar links não visitados "deixa da mesma cor do visitado" */
+a:link, a:visited{
+	color: #f9c941;	
+}
+
+/* Formatar links visitados
+a:visited{
+	color: #c0c0c0;
+}*/
+
+/* Formatar links Hover: Quando você passa o mouse em cima; */
+a:hover{
+	color: #FFF;
+	background: #6d790f;
+}
+
+/* Formatando links ativos: Quando você clica; */
+a:active{
+	color: #e4f371;	
+}

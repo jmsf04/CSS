@@ -1,0 +1,4 @@
+.borda{
+	border:1px solid gray;
+	/*display: inline; /*Faz com que um elemento block se comporte como um inline */
+}

@@ -1,0 +1,5 @@
+.conteudo{
+	border:1px solid red;
+	padding:20px 15px 10px 5px; /* Junto ao conteúdo */
+	margin: 20px 15px 10px 5px; /* Fora do conteúdo e borda */
+}

@@ -1,0 +1,42 @@
+/* Seletor Universal*//*
+*{
+	border: 1px solid red;
+}
+
+/* Seletor de texto *//*
+h1{
+	color: green;
+}*/
+
+/* Seletor de classe: Ele irá aplicar uma classe a um elemento selecionado; */
+p.verde{
+	color: green;
+}
+
+/* Seletor de ID */
+#cabecalho{
+	border:1px solid orange;
+}
+
+/* Seletor de filho: Irá selecionar todos os itens que são filhos diretos *//*
+li>a{
+	color: red;
+	text-decoration: none;	
+}*/
+
+/* Seletor de descendente: Irá selecionar todos os itens que estajam dentro do elemento especificado; */
+/*
+li a{
+	color: blue;
+}*/
+
+/* Seletor de irmão adjacente: Irá selecionar somente o item mais próximo do elemento selecionado; */
+/*
+h1+p{
+	color: red;
+}*/
+
+/* Seletor de irmão geral: Irá selecionar todos os itens especificados que estajam somento dentro do elemento informado ; */
+h1~p{
+	color: red;
+}

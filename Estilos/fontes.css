@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "ancient";
+    src: url(/fontes/Ancient-Medium.woff);
+}
+
+@font-face {
+    font-family: "heart";
+    src: url(/fontes/BringHeart.woff);
+}
+
+h1 {
+    font-size: 6em;
+    font-family: "heart";
+}

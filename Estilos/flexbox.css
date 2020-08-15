@@ -1,0 +1,31 @@
+#conteudo {
+    background: #dcdcdc;
+    height: 400px;
+    display: flex;
+    /*
+    row/row-reverse/column/column-reverse
+    */
+    /*flex-direction: row;*/
+    /*nowrap = define que os itens dentro de um container não tenham quebra de linha.
+    /wrap = vai ter quebra de linha
+    /wrap-reverse = ao contrário do de cima*/
+    /*flex-wrap: nowrap;*/
+    /*flex-start|flex-end|center|space-between|space-around*/
+    /*justify-content: space-around;*/
+    /* scretch|center|flex-start|flex-end|baseline */
+    /*align-items: stretch;*/
+}
+
+.item {
+    background: white;
+    border: 1px solid gray;
+    margin: 10px;
+    /*width: 200px;*/
+    height: 100px;
+    /* Define a proporção de espaço ocupado por um item */
+    flex-grow: 0;
+    /* Define a capacidade de redução de tamanho do item*/
+    flex-shrink: 1;
+    /* Indica o tamanho inicial do flex item antes da distribuição de espaço restante */
+    flex-basis: 200px;
+}

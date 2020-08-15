@@ -1,0 +1,44 @@
+body{
+	background: #007fc7;
+}
+
+h1{
+
+}
+
+p{
+	width: 400px;
+}
+
+.relative{
+	border:1px solid red;
+	position: relative; /*Vamos realinhar o elemento de acordo com a sua posição inicial, sendo por qualquer lado.*/
+	top: 20px;
+	left: 80px;
+}
+
+.fixed{
+	border:1px solid pink;
+	background: #f2f2f2;
+	margin: 0px;
+	position: fixed; /*Vai realinhar de acordo com a janela. */
+	top: 0px;
+	right: 0px;
+}
+
+.absolute{
+	border:1px solid pink; /*Aqui ele vai se realinhar de acordo com o container pai que possui um tipo de
+	posicionamento, caso não exista ele vai se realinhar de acordo com o body. Ele respeita a rolagem. */
+	background: #f2f2f2;
+	position: absolute;
+	top: 80px;
+	right: 80px;
+}
+
+#container{
+	background: #FFF;
+	width: 800px;
+	margin: 10px auto;
+	padding: 10px;
+	position: relative;
+}

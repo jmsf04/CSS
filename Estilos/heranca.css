@@ -1,0 +1,29 @@
+/* Herança e Especificidade */
+/* Background e Border não são herdados  */
+/*
+p{
+	color: blue !important;
+}
+
+p{
+	color: red;
+}*/
+
+/* Se um seletor ser mais específico que outro
+a regra mais específica será aplicada */
+
+*{/*4*/
+	color: red;
+}
+
+h2{/*3*/
+	color: orange;
+}
+
+h2.verde{/*2*/
+	color: green;
+}
+
+h2#yellow{/*1*/
+	color: yellow;
+}

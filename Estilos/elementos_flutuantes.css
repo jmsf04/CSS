@@ -1,0 +1,22 @@
+.conteudo1{
+	background:gray;
+	border:1px solid yellow;
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+.conteudo2{
+	background:pink;
+	border:1px solid yellow;
+	width: 150px;
+	height: 150px;
+}
+
+.clear{
+	clear: both; /* right, left, both */
+}
+
+#principal{
+	border:1px solid red;
+}
